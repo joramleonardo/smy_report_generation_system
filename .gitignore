@@ -12,3 +12,7 @@ wheels/
 # Local database & environment variables
 db.sqlite3
 .env
+
+# Collected static and media files
+staticfiles/
+media/

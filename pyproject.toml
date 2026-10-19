@@ -8,12 +8,16 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "cryptography>=50.0.2",
     "django>=6.1.2",
     "django-unfold>=0.110.0",
     "matplotlib>=3.11.2",
     "openpyxl>=3.1.5",
     "pandas>=3.0.6",
+    "pymysql>=1.2.3",
+    "python-dotenv>=1.2.4",
     "reportlab>=5.0.1",
+    "whitenoise>=6.12.0",
 ]
 
 [project.scripts]
