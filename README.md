@@ -1,15 +1,15 @@
-# 🏭 SMY Plant Report Generation System
+# SMY Plant Report Generation System
 ### Glass Forming Department Operations & Analytics Platform
 
-[![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Django](https://img.shields.io/badge/Django-6.1+-092E20?style=for-the-badge&logo=django&logoColor=white)](https://djangoproject.com)
-[![Tailwind CSS](https://img.shields.io/badge/Django--Unfold-Tailwind_Admin-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://github.com/unfoldadmin/django-unfold)
-[![Pandas](https://img.shields.io/badge/Pandas-Data_Engine-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Database](https://img.shields.io/badge/MySQL%20%7C%20SQLite-Dual_Engine-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
+[![Django](https://img.shields.io/badge/Django-6.1+-darkgreen.svg)](https://djangoproject.com)
+[![Django-Unfold](https://img.shields.io/badge/Django--Unfold-Tailwind_Admin-teal.svg)](https://github.com/unfoldadmin/django-unfold)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Engine-navy.svg)](https://pandas.pydata.org)
+[![Database](https://img.shields.io/badge/Database-MySQL_%7C_SQLite-blue.svg)](https://mysql.com)
 
 ---
 
-## 📖 Overview
+## Overview
 
 The **SMY Plant Report Generation System** is an enterprise operations management and reporting platform designed for the **Glass Forming Department** at **San Miguel Yamamura Packaging Corporation (SMY Glass Plant)**.
 
@@ -17,20 +17,20 @@ It transitions manual, fragmented Google Sheets and Excel logbooks into a unifie
 
 ---
 
-## ✨ Key Features & Operational Modules
+## Key Features & Operational Modules
 
-### 1. 👥 Attendance & Overtime Tracking
+### 1. Attendance & Overtime Tracking
 * **Comprehensive Shift Leave Tracking:** Real-time logging of plant-specific leave codes (`VL`, `SL`, `EL`, `AWP`, `HDSL`, `PL`, `HL`, `XL`, `OPT`, `HD`, `OB`, `CS`, `UL`, `LATE`).
 * **Overtime Accounting:** Detailed tracking of personnel overtime hours mapped to operational work orders (*TL report, Feed forward, Wise proposal, Housekeeping, Group meeting, Holiday duty, Excess duty, Manning fill-up, Mobil oil tank replacement*).
 * **Workforce Availability Analytics:** Instant visibility into group shift rosters (e.g., Team B / Group B - YB).
 
-### 2. 🧪 Chemical & Consumables Inventory
+### 2. Chemical & Consumables Inventory
 * **BIOSOL L (200L Drum) Management:** End-to-end tracking of glass lubricant drums and dilution consumables.
 * **Consumption Computations:**
   $$\text{Monthly Consumption (L)} = \text{Starting Inventory} + \text{Withdrawn} - \text{Ending Inventory}$$
 * **Averages & Thresholds:** Automated computation of Average Daily Consumption (ADC) and Average Monthly Consumption (AMC) to prevent line starvation.
 
-### 3. ⚙️ Machine Downtime & Maintenance Logs
+### 3. Machine Downtime & Maintenance Logs
 * **Production Line Granularity:** Dedicated incident logging for lines **YB-1, YB-2, YB-3, and YB-4**.
 * **Hierarchical Equipment Categorization:**
   * **FEEDER:** Plunger, Feeder Tube, Orifice, Shear Blade, Shear Mechanism, Shear Spray, Drop Guide, Biosol Pump, Gob Distributor, Weight Fluctuation, Gob Mis-delivery.
@@ -39,8 +39,8 @@ It transitions manual, fragmented Google Sheets and Excel logbooks into a unifie
   * **OTHERS:** Low Air Pressure, Electrical Power Failure, Normal Stop, Flexis - UC, Maintenance Stop, MCB, Hot End Coating.
 * **Incident Analytics:** Duration logging in minutes paired with technician field remarks and automated Pareto / distribution bar charts.
 
-### 4. 🎨 Modern Tailwind UI & Data Export
-* **Django Unfold:** Sleek, responsive, Tailwind CSS-based admin portal optimized for tablets, workstations, and control room screens.
+### 4. Modern Tailwind UI & Data Export
+* **Django Unfold:** Clean, responsive, Tailwind CSS-based admin portal optimized for tablets, workstations, and control room screens.
 * **Pure Python Export Pipeline:**
   * **openpyxl:** Formatted Excel workbooks for plant audits.
   * **ReportLab:** Formatted corporate PDF monthly summary sheets.
@@ -48,7 +48,7 @@ It transitions manual, fragmented Google Sheets and Excel logbooks into a unifie
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -78,7 +78,7 @@ It transitions manual, fragmented Google Sheets and Excel logbooks into a unifie
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 smy_report_generation_system/
@@ -106,7 +106,7 @@ smy_report_generation_system/
 
 ---
 
-## 🚀 Quickstart & Local Setup
+## Quickstart & Local Setup
 
 ### Prerequisites
 * **Python 3.12+**
@@ -161,7 +161,7 @@ smy_report_generation_system/
 
 ---
 
-## 🌐 Production Deployment (Hostinger)
+## Production Deployment (Hostinger)
 
 This repository includes full out-of-the-box support for **Hostinger Python Hosting (Passenger WSGI + MySQL)**.
 
@@ -193,7 +193,7 @@ python manage.py createsuperuser
 
 ---
 
-## 📋 Environment Variables Reference
+## Environment Variables Reference
 
 | Variable | Description | Default / Example |
 | :--- | :--- | :--- |
@@ -210,13 +210,13 @@ python manage.py createsuperuser
 
 ---
 
-## 👥 Contributors & Maintainers
+## Contributors & Maintainers
 
 * **Joram Leonardo** ([@joramleonardo](https://github.com/joramleonardo))
 * **San Miguel Yamamura Packaging Corporation** - SMY Glass Plant (Glass Forming Dept)
 
 ---
 
-## 📄 License
+## License
 
 This project is proprietary and intended for operational use at San Miguel Yamamura Packaging Corporation.
